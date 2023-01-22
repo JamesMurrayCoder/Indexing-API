@@ -1,20 +1,7 @@
 # MultithreadedIndexingAPI
 Text Indexer README
-Although the requirements of the assignment said that we were to create a console based API, I
-aimed to allow the user to obtain the functionality without actually using a menu. I wanted to be
-able to create an object by passing it the relevant parameters, and then invoking the appropriate
-methods on the object. The menu would then be able to create an object of that class, and simply
-display the options on the screen. I felt that would achieve the best level of abstraction for the user.
-I did this with the TextIndexer class, which became the controller of the program. The menu, and
-subsequently the GUI, could create an object of the class and display the available options to the
-user.
-As the output file was not actually updating the view, I set out to use the Model Adaptor View design
-pattern. However, I finished the project a few days early and decided to add a GUI so I could see how
-it is done. As this included a TextArea Panel that is updated to display the output, the design pattern
-had to change to MVC. However, I did not have time to implement this fully and so the encapsulation
-in the GUI is not at the required level.
-I took a lot of code for the GUI from the Cave of Programming tutorial on J Swing, then edited it to fit
-my requirements.
+API that allows the user to index a text file and output an index of the words in the file, along with their definitions and frequency, to a specified file. 
+There is also a GUI that can be used to display the output.
 
 To run the program you need to enable the preview features of Java 19, either by using the command line
 java --enable-preview Runner after the program has been compiled, or by enabling preview features in whatever
