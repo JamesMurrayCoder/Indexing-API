@@ -1,5 +1,7 @@
-# MultithreadedIndexingAPI
+#Indexing API
+
 Text Indexer README
+
 API that allows the user to index a text file and output an index of the words in the file, along with their definitions and frequency, to a specified file. 
 There is also a GUI that can be used to display the output.
 
